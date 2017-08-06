@@ -18,9 +18,7 @@ counter = 0
 price = INITIAL_PRICE
 print("Starting price: ${:,.2f}".format(price), file=out_file)
 
-
 while price >= MIN_PRICE and price <= MAX_PRICE:
-
     price_change = 0
     # generate a random integer of 1 or 2
     # if it's 1, the price increases, otherwise it decreases
