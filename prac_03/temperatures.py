@@ -15,7 +15,7 @@ Q - Quit"""
             print("Result: {:.2f} F".format(fahrenheit))
         elif choice == "F":
             fahrenheit = float(input("Fahrenheit: "))
-            celsius = fahrenheit_to_celsius(celsius, fahrenheit)
+            celsius = fahrenheit_to_celsius(fahrenheit)
             print("Result: {:.2f} C".format(celsius))
 
             # TODO: Write this section to convert F to C and display the result
@@ -28,7 +28,7 @@ Q - Quit"""
     print("Thank you.")
 
 
-def fahrenheit_to_celsius(celsius, fahrenheit):
+def fahrenheit_to_celsius(fahrenheit):
     celsius = 5 / 9 * (fahrenheit - 32)
     return celsius
 
