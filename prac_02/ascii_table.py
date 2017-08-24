@@ -13,9 +13,12 @@ print("The character for {} is {}".format(number, ascii_char))
 
 column = 0
 number_of_columns = int(input("Enter number of columns between 0 and 95: "))
-while number_of_columns < 0 or number_of_columns > 95
+while number_of_columns < 1 or number_of_columns > 95:
     print("Invalid number of columns")
+    number_of_columns = int(input("Enter number of columns between 0 and 95: "))
+
 print("Column Number : ASCII Number : ASCII Character")
+
 for i in range(0, number_of_columns, 1):
     column = column + 1
     ascii_char = chr(i+33)
