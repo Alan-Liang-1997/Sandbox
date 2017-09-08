@@ -1,0 +1,25 @@
+BoxLayout:
+    orientation: 'vertical'
+    BoxLayout:
+        orientation: 'horizontal'
+        Button:
+            text: 'Clear'
+            on_press: app.handle_clear()
+            size_hint_x: 0.2
+            font_size: 25
+        TextInput:
+            id: input_score
+            text: ''
+            font_size: 25
+    BoxLayout:
+        orientation: 'horizontal'
+        Button:
+            text: 'Grade'
+            on_press: app.handle_greet()
+            size_hint_x: 0.2
+            font_size: 25
+        Label:
+            id: output_label
+            text: 'Enter your score out of 100'
+            color: (1, 1, 0, 1) # Yellow Label
+            font_size: 25
