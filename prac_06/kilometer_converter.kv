@@ -2,8 +2,6 @@
 <Button>:
     font_size: 44
     canvas.before:
-        Color:
-            rgba: 255, 255, 1, 1
         Rectangle:
             pos: self.pos
             size: self.size
@@ -15,7 +13,7 @@ BoxLayout:
         orientation: 'horizontal'
         TextInput:
             id: input_miles
-            text: '34'
+            text: '12'  # Initial miles value (chosen at random)
             font_size: 44
             on_text: app.handle_calculate()
         BoxLayout:
@@ -32,5 +30,5 @@ BoxLayout:
     Label:
         id: output_label
         font_size: 44
-        text: '54.717'
-        color: (1, 1, 200, 1)
+        text: '19.3121'
+        color: (1, 1, 200, 1) # Yellow text (Kilometer value)

@@ -10,7 +10,7 @@ from kivy.lang import Builder
 from kivy.uix.button import Button
 from kivy.properties import StringProperty
 
-__author__ = 'Alan Liang'
+__author__ = 'Lindsay Ward'
 
 
 class DynamicWidgetsApp(App):
