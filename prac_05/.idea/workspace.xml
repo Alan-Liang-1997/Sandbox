@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7759c97-3f1d-42bf-88de-a6fd9c2fd76f" name="Default" comment="Attempt re-do pull request for Prac 5">
+    <list default="true" id="e7759c97-3f1d-42bf-88de-a6fd9c2fd76f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hex_colour_code.py" afterPath="$PROJECT_DIR$/hex_colour_code.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/occurrence_of_words.py" afterPath="$PROJECT_DIR$/occurrence_of_words.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/state_names.py" afterPath="$PROJECT_DIR$/state_names.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,8 +31,8 @@
       <file leaf-file-name="hex_colour_code.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hex_colour_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+            <state relative-caret-position="153">
+              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -353,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505726061452</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Attempt re-do pull request for Prac 5">
+      <created>1505726223234</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1505726223234</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -766,8 +770,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hex_colour_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        <state relative-caret-position="153">
+          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
           <folding />
         </state>
       </provider>
