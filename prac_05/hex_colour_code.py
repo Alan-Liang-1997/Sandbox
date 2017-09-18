@@ -16,4 +16,4 @@ while colour != "":
     colour = input("Enter colour: ")
 
 for colour, hex_value in COLOUR_NAMES.items():
-    print("{:<12} is {:<5}".format(colour, hex_value))
+    print("{:<12} is {:<6}".format(colour, hex_value))

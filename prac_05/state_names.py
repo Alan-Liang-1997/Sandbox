@@ -3,18 +3,17 @@ CP1404/CP5632 Practical
 State names in a dictionary
 """
 
-# TODO: Reformat this file so the dictionary code follows PEP 8 convention
 STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
                "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
 # print(STATE_NAMES)
 
-state = input("Enter short state: ").upper()
-while state != "":
-    if state in STATE_NAMES:
-        print(state, "is", STATE_NAMES[state])
+full_state = input("Enter short state: ").upper()
+while full_state != "":
+    if full_state in STATE_NAMES:
+        print(full_state, "is", STATE_NAMES[full_state])
     else:
         print("Invalid short state")
-    state = input("Enter short state: ").upper()
+    full_state = input("Enter short state: ").upper()
 
-for short_name ,state in STATE_NAMES.items():
-    print("{:<3} is {:<10}".format(short_name ,state))
+for short_state, full_state in STATE_NAMES.items():
+    print("{:<3} is {:<10}".format(short_state, full_state))
