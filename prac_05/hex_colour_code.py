@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 Practical
-Colour Hex values in a dictionary
+Colour hex values in a dictionary
 """
 
 COLOUR_NAMES = {"AliceBlue": "f0f8ff", "Black": "000000", "DarkGreen": "006400", "DarkOrchid": "9932cc",

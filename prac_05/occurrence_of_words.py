@@ -1,6 +1,6 @@
 """
 CP1404/CP5632 Practical
-Count same words from input.
+Count same words from input
 """
 counted_words = {}
 text = input("Text: ")
