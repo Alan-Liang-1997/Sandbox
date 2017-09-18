@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7759c97-3f1d-42bf-88de-a6fd9c2fd76f" name="Default" comment="">
+    <list default="true" id="e7759c97-3f1d-42bf-88de-a6fd9c2fd76f" name="Default" comment="Attempt re-do pull request for Prac 5">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hex_colour_code.py" afterPath="$PROJECT_DIR$/hex_colour_code.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/occurrence_of_words.py" afterPath="$PROJECT_DIR$/occurrence_of_words.py" />
@@ -24,28 +24,28 @@
       <file leaf-file-name="state_names.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/state_names.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hex_colour_code.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hex_colour_code.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hex_colour_code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="104" lean-forward="true" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+            <state relative-caret-position="34">
+              <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="occurrence_of_words.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="occurrence_of_words.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/occurrence_of_words.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+            <state relative-caret-position="34">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -71,8 +71,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/state_names.py" />
         <option value="$PROJECT_DIR$/occurrence_of_words.py" />
+        <option value="$PROJECT_DIR$/state_names.py" />
         <option value="$PROJECT_DIR$/hex_colour_code.py" />
       </list>
     </option>
@@ -346,7 +346,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505725260023</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Attempt re-do pull request for Prac 5">
+      <created>1505726061452</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1505726061452</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -741,26 +748,26 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../a1-Alan-Liang-1997/assignment1.py" />
-    <entry file="file://$PROJECT_DIR$/hex_colour_code.py">
+    <entry file="file://$PROJECT_DIR$/occurrence_of_words.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="104" lean-forward="true" selection-start-line="5" selection-start-column="104" selection-end-line="5" selection-end-column="104" />
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/state_names.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/occurrence_of_words.py">
+    <entry file="file://$PROJECT_DIR$/hex_colour_code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
+        <state relative-caret-position="34">
+          <caret line="2" column="33" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
           <folding />
         </state>
       </provider>
