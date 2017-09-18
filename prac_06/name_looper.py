@@ -11,25 +11,15 @@ class name_looper_app(App):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        self.words = {"Bob", "Cassy", "Tom", "Sam", "Alli", "Alan", "Melina", "Chris"}
+        self.words = ["Bob", "Cassy", "Tom", "Sam", "Alli", "Alan", "Melina", "Chris"]
 
     def build(self):
         self.title = "Dynamic String"
         self.root = Builder.load_file('name_looper.kv')
-        self.create_widgets()
-        return self.root
-
-    def create_widgets(self):
         for word in self.words:
             temp_label = Label(text=word)
-            temp_label.bind(on_release=self.press_entry)
             self.root.ids.entriesBox.add_widget(temp_label)
 
-    def press_entry(self, instance):
-        self.status_text = "{}".format(instance.text)
-
-    def clear_all(self):
-        self.root.ids.entriesBox.clear_widgets()
-
+        return self.root
 
 name_looper_app().run()
