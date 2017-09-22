@@ -6,13 +6,13 @@ State names in a dictionary
 STATE_NAMES = {"QLD": "Queensland", "NSW": "New South Wales", "NT": "Northern Territory", "WA": "Western Australia",
                "ACT": "Australian Capital Territory", "VIC": "Victoria", "TAS": "Tasmania"}
 
-full_state = input("Enter short state: ").upper()
-while full_state != "":
-    if full_state in STATE_NAMES:
-        print(full_state, "is", STATE_NAMES[full_state])
+state_short_desc = input("Enter short state: ").upper()
+while state_short_desc != "":
+    if state_short_desc in STATE_NAMES:
+        print(state_short_desc, "is", STATE_NAMES[state_short_desc])
     else:
         print("Invalid short state")
-    full_state = input("Enter short state: ").upper()
+    state_short_desc = input("Enter short state: ").upper()
 
-for short_state, full_state in STATE_NAMES.items():
-    print("{:<3} is {:<10}".format(short_state, full_state))
+for short_state_desc, full_state in STATE_NAMES.items():
+    print("{:<3} is {:<10}".format(short_state_desc, full_state))
