@@ -30,7 +30,6 @@ def main():
     longest_year = max(len("{:.2f}".format(guitar.year)) for guitar in guitars)
     longest_cost = max(len("{:.2f}".format(guitar.cost)) for guitar in guitars)
 
-
     for index, guitar in enumerate(guitars):
         if guitar.is_vintage():
             vintage_status = "(vintage)"
