@@ -4,5 +4,5 @@ taxi = SilverServiceTaxi("Silver Service Taxi", 100, 2)
 taxi.drive(18)
 print(taxi)
 print()
-print(taxi.get_fare())
+print("This trip costed: ${}".format(taxi.get_fare()))
 
